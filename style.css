@@ -1,0 +1,36 @@
+body{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+}
+.title-font{
+    font-size: 54px;
+    color: #0023af;
+    font-weight: bold;
+}
+.bg-dark-light{
+    background-color: #cecece;
+}
+.bg-light h1{
+    color: #0023af;
+}
+.pl-0 img{
+    width: 60%;
+    height: 86%;
+}
+.col-md-6 .list-group-flush span{
+    color: #0023af;
+}
+.d-none-big-screen{
+    display: none
+}
+.d-none-md-screen{
+    display: block;
+}
+@media(max-width: 1000px){
+    .d-none-big-screen{
+        display: block;
+    }
+    .d-none-md-screen{
+        display: none;
+    }
+}
