@@ -1,5 +1,6 @@
 body{
-    font-family: 'BenchNine', sans-serif;
+    /* font-family: 'BenchNine', sans-serif; */
+    font-family: sans-serif;
     font-size: 20px;
 }
 .title-font{
@@ -14,8 +15,8 @@ body{
     color: #0023af;
 }
 .pl-0 img{
-    width: 60%;
-    height: 86%;
+    width: 90%;
+    height: 94%;
 }
 .col-md-6 .list-group-flush span{
     color: #0023af;
@@ -25,6 +26,12 @@ body{
 }
 .d-none-md-screen{
     display: block;
+}
+.skills-font{
+    font-size: 20px;
+}
+.skills {
+    font-size: 26px
 }
 @media(max-width: 1000px){
     .d-none-big-screen{
