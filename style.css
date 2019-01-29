@@ -41,3 +41,31 @@ body{
         display: none;
     }
 }
+@media (max-width: 480px) {
+    .title-font{
+        font-size: 25px;
+    }
+}
+@media (max-width: 375px) {
+    .title-font{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .col-md-9>p.font-weight-bold {
+        font-size: 15px
+    }
+    .skills-font {
+        font-size: 15px;
+    }
+    li{
+        font-size: 16px;
+    }
+    .col-md-10.offset-md-1.mt-4 {
+        font-size: 16px;        
+    }
+    h4{
+        font-size: 16px;
+    }
+}
